@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="main-container">
+        <div class="franja-y-control">
+            <div class="control-grupo">
+                <label for="sliderVerde">Esperanza</label>
+                <input type="range" id="sliderVerde" min="0" max="255" value="104">
+                <span id="hexVerde">#006847</span>
+            </div>
+            <div class="franja verde"></div>
+        </div>
+
+        <div class="franja-y-control">
+            <div class="control-grupo">
+                <label>Unidad</label>
+                <span id="hexBlanco">#FFFFFF</span>
+            </div>
+            <div class="franja blanca">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/2259px-Coat_of_arms_of_Mexico.svg.png" alt="Escudo Nacional de México">
+            </div>
+        </div>
+
+        <div class="franja-y-control">
+            <div class="control-grupo">
+                <label for="sliderRojo">Sangre de nuestros héroes nacionales</label>
+                <input type="range" id="sliderRojo" min="0" max="255" value="206">
+                <span id="hexRojo">#CE1126</span>
+            </div>
+            <div class="franja roja"></div>
+        </div>
+    </div>
+<div class="equipo">
+        <p>Fernando Vidal Delgado 23200905</p>
+        <p>Andy Gael Martinez Martinez 23200863</p>
+    </div>
+
+</body>
+    <script src="main.js"></script>
+</body>
+</html>
