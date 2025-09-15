@@ -24,4 +24,4 @@
 
 **6. Para los nombres del equipo:**
 
-> Finalmente, agrega mi nombre y matrícula y el de mi compañero al final de la página.
+> Podrias anexar una parte que contenga el siguiente texto: Fernando VIdal Delgado 23200905 y abajo de eso Andy Gael Martinez Martinez 23200863.
